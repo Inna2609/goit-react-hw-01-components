@@ -1,4 +1,4 @@
-**Read in other languages: [Русский](README.md), [Polska](README.pl.md).**
+<!-- **Read in other languages: [Русский](README.md), [Polska](README.pl.md).** -->
 
 # React homework template
 
@@ -72,7 +72,7 @@
 обязательны.
 
 ```jsx
-<BrowserRouter basename="/your_repo_name/">
+<BrowserRouter basename="/goit-react-hw-01-components/">
   <App />
 </BrowserRouter>
 ```
