@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import styles from './Profile.module.css';
 
+
 const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <div className={styles.profile}>
@@ -8,7 +9,7 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
         <img
           src={avatar}
           alt={tag}
-          className={styles.avatar}/>
+          className={styles.avattar}/>
         <p className={styles.name}>{username}</p>
         <p className={styles.tag}>{tag}</p>
         <p className={styles.location}>{location}</p>
